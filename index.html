@@ -9,16 +9,16 @@
 <body>
     
     <nav class="main-navigation">
-        <ol>
+        <ul>
 
-            <a href="#About us">About us</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-        </ol>
+        </ul>
     </nav>
-    <Section id="About us">
+    <Section id="about-us">
         <!-- About us -->
 
         <h2>About us</h2>
@@ -27,7 +27,7 @@
         
     </Section>
     
-    <Section id="Skills">
+    <Section id="skills">
         
         <h2>Skills</h2>
 
@@ -63,7 +63,7 @@
         
     </Section>
 
-    <Section id="Portfolio">
+    <Section id="portfolio">
 
         <h2>Portfolio</h2>
 
@@ -87,23 +87,22 @@
 
     </Section>
     
-    <Section id="Contact">
+    <Section id="contact">
 
         <h2>Krzysztof Kozak</h2>
 
         <address>Dane adresowe</address>
 
         <form >
-            <label>Imię</label> <input type="text" name="Imię" placeholder="Piotrek" required/>
 
-            <label>Temat</label> <input type="text" name="Temat" placeholder="Temat" required/>
+            <label for="fname">Imię</label> <input type="text" name="Imię" placeholder="Piotrek" id="fname" required/>
 
-            <label>Wiadomość</label> <input type="text" name="Wiadomość" placeholder="Wiadomość" required/>
+            <label for="fname">Temat</label> <input type="text" name="Temat" placeholder="Temat" id="fname" required/>
 
-            <form>
-                <input type="submit" value="Wyślij formularz" />
-                </form>
+            <label for="fname">Wiadomość</label> <input type="text" name="Wiadomość" placeholder="Wiadomość" id="fname" required/>
 
+            <input type="submit" value="Wyślij formularz" />
+            
         </form>
 
 
